@@ -1,0 +1,65 @@
+*,
+h2 {
+  /*font-family: Underdog;!important;*/
+}
+.features {
+  padding-bottom: 90px;
+}
+
+.features,
+.packages,
+footer {
+  background: black;
+}
+
+.testimonials .color-overlay {
+  padding-top: 500px;
+}
+
+#examples_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cocktail-wrapper {
+  position: relative;
+}
+
+.coct {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20%;
+  /**/
+}
+@media (max-width: 767px) {
+  .coct {
+    margin-bottom: 5%;
+  }
+}
+
+.coct img {
+  width: 100%;
+}
+
+.coct_desc {
+  position: absolute;
+  z-index: 1;
+  top: 86%;
+  text-shadow: 2px 1px 2px #0a3c59;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #000000b8;
+}
+
+.coct p {
+  /*position: absolute; bottom: 0;*/
+}
+
+.coct_desc h3 {
+  margin-top: 5px;
+  color: #b5894a;
+}
+
+.coct p {
+  text-shadow: 1px 1px 1px black;
+}
