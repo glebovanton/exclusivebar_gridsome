@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "strict": true
+  },
+  "paths": {
+    "~/*": ["./src/*"],
+    "@/*": ["./src/*"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

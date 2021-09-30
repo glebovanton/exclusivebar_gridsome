@@ -1,0 +1,49 @@
+{
+  "name": "exclusivebar_gridsome",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "start": "gridsome develop",
+    "lint:check": "eslint --ext .ts,.vue ./src",
+    "lint:fix": "yarn lint:check --fix"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "gridsome": "^0.7.0",
+    "prettier": "^2.4.1",
+    "vue": "^2.6.14",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "husky": "^2.7.0",
+    "eslint": "^5.0.0",
+    "lint-staged": "^8.2.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-promise": "^4.2.0",
+    "eslint-plugin-vue": "^5.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "gridsome-plugin-typescript": "^0.4.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "ts-loader": "^6.0.0"
+  },
+  "lint-staged": {
+    "*.(vue|ts)": "yarn lint:check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
